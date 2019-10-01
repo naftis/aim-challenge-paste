@@ -1,0 +1,23 @@
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1em;
+  height: 6em;
+  resize: vertical;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+button {
+  width: 30%;
+  margin: 0.2em 0;
+}
+.empty {
+  width: 30%;
+}
