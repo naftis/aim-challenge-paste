@@ -1,23 +1,46 @@
+body {
+  padding: 1rem;
+}
+
 textarea {
   width: 100%;
   box-sizing: border-box;
   padding: 1em;
   height: 6em;
   resize: vertical;
-  border: 0;
-  border-bottom: 1px solid #ddd;
 }
 
-section {
+.runs {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-button {
+.run {
   width: 30%;
   margin: 0.2em 0;
 }
+sup {
+  color: red;
+}
 .empty {
   width: 30%;
+}
+.number {
+  font-family: monospace;
+}
+.close {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100%;
+}
+.remove {
+  margin-top: auto;
 }
